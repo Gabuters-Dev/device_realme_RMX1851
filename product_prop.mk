@@ -87,6 +87,12 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.low_ram=false \
     ro.lmk.log_stats=true
 
+# ZRAM
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.zram.mark_idle_delay_mins=60 \
+    ro.zram.first_wb_delay_mins=180 \
+    ro.zram.periodic_wb_delay_hours=24
+
 # Media
 PRODUCT_PRODUCT_PROPERTIES += \
     media.settings.xml=/system/etc/media_profiles_vendor.xml
