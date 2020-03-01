@@ -117,10 +117,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.controls.xml:system/etc/permissions/android.software.controls.xml
 
-# Net
-PRODUCT_PACKAGES += \
-    netutils-wrapper-1.0
-
 # RCS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
