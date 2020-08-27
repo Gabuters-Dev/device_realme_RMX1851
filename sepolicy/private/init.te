@@ -9,3 +9,5 @@ allow init vendor_overlay_file:dir mounton;
 
 # Allow init to set powerhal state property
 set_prop(init, vendor_power_prop)
+
+allow init sysfs:file { write open };
