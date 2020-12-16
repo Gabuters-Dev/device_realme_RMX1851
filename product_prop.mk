@@ -118,6 +118,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.vendor.ssr.enable_ramdumps=0 \
     persist.vendor.ssr.restart_level=ALL_ENABLE
 
+# Shutdown
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.shutdown_timeout=2
+
 # WFD
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.hwc.enable_vds=1
