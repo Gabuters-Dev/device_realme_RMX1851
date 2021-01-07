@@ -45,6 +45,10 @@ import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.TwoStatePreference;
 
+import android.os.FileUtils;
+
+import org.lineageos.settings.device.SeekBarPreference;
+
 public class DeviceSettings extends PreferenceFragment
         implements Preference.OnPreferenceChangeListener {
 
@@ -104,11 +108,11 @@ public class DeviceSettings extends PreferenceFragment
 
         mSeekBarPreference = (SeekBarPreference) findPreference("seek_bar");
         mSeekBarPreference.setEnabled(mSmartChargingSwitch.isChecked());
-
         mCABC = (SecureSettingListPreference) findPreference(KEY_CABC);
         mCABC.setValue(Utils.getStringProp(CABC_SYSTEM_PROPERTY, "0"));
         mCABC.setSummary(mCABC.getEntry());
         mCABC.setOnPreferenceChangeListener(this);
+
     }
 
     @Override

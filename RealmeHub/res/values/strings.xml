@@ -45,4 +45,10 @@
     <!-- FPS Info -->
     <string name="fps_info_title">FPS Info Overlay</string>
     <string name="fps_info_summary">Show current frames per second by overlay</string>
+
+    <!-- Charging -->
+    <string name="smart_charging_title">Smart Charging</string>
+    <string name="smart_charging_summary">Helps in cooling down &amp; also protects from over charging the device</string>
+    <string name="reset_stats_title">Reset battery stats</string>
+    <string name="reset_stats_summary">Battery stats will get reset when charging limit is reached</string>
 </resources>
