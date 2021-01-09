@@ -1,1 +1,4 @@
+type flipendo, domain, coredomain;
+app_domain(flipendo)
+
 binder_call(flipendo, hal_power_pixel);
