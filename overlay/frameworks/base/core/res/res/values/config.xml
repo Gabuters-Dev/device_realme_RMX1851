@@ -372,5 +372,8 @@
 
     <!-- Whether device has vooc charging support -->
     <bool name="config_hasVoocCharger">true</bool>
+    
+    <!-- Enable doze alwaysOn Display -->
+    <bool name="config_dozeAlwaysOnDisplayAvailable">true</bool>
 
 </resources>
