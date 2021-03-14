@@ -11,3 +11,5 @@ allow init vendor_overlay_file:dir mounton;
 set_prop(init, vendor_power_prop)
 
 allow init sysfs:file { write open };
+
+allow init sysfs_graphics_ffl:file { write open };
