@@ -21,3 +21,8 @@ allow system_app default_prop:property_service set;
 
 # OTG Tile
 allow system_app sysfs_usb_supply:file { write };
+
+# Camera
+allow system_app apk_data_file:dir { write };
+allow system_app vendor_default_prop:file { getattr open read };
+allow system_app vendor_default_prop:file {map};
