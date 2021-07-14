@@ -1,7 +1,8 @@
 
 #
-# from device/realme/RMX1851/system.prop
+# Extracted from device/realme/RMX1851/system.prop
 #
+
 # Art
 dalvik.vm.dex2oat64.enabled=true
 dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7
@@ -103,7 +104,4 @@ persist.data.iwlan.rekey=4294967295
 persist.sys.wfd.virtual=0
 
 # Zygote Preforking
-persist.device.config.runtime_native.uasp_pool_enabled=true
-# end of device/realme/RMX1851/system.prop
-
-#
+persist.device_config.runtime_native.usap_pool_enabled=true

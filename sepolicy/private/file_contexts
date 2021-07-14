@@ -1,0 +1,11 @@
+# Data files
+/data/display(/.*)?                 u:object_r:display_data_file:s0
+
+# HALs
+/system/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.realme_sdm710        u:object_r:hal_fingerprint_sdm710_exec:s0
+/system/bin/hw/android\.hardware\.power-service\.realme_sdm710                               u:object_r:hal_power_pixel_exec:s0
+/system/bin/hw/lineage\.livedisplay@2\.0-service-sdm                                         u:object_r:shal_livedisplay_default_exec:s0
+/system/bin/hw/lineage\.touch@1\.0-service\.realme_sdm710                                    u:object_r:hal_touch_sdm710_exec:s0
+
+# FPS Info
+/sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/sde-crtc-0/measured_fps    u:object_r:sysfs_fps:s0

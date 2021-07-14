@@ -85,6 +85,9 @@ on post-fs-data
     mkdir /data/vendor/tloc 0700 system drmrpc
     mkdir /data/vendor/nnhal 0700 system system
 
+on property:dev.bootcomplete=1
+    swapon_all /vendor/etc/fstab.qcom
+
 # For cpusets initialize for Silver Only first and then Silver + Gold
 # Silver Only configuration cannot work with 0-7
 on boot
