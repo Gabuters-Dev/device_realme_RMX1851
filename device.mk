@@ -128,6 +128,10 @@ PRODUCT_PACKAGES += \
     qti-telephony-utils \
     qti_telephony_utils.xml
 
+# TinyXML
+PRODUCT_PACKAGES += \
+    libtinyxml
+
 # Touch
 PRODUCT_PACKAGES += \
     lineage.touch@1.0-service.realme_sdm710
