@@ -16,11 +16,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
    vendor.bluetooth.soc=cherokee
 
-# Blurs
-PRODUCT_PRODUCT_PROPERTIES += \
-   ro.surface_flinger.supports_background_blur=1 \
-   persist.sys.sf.disable_blurs=1
-
 # Camera
 PRODUCT_PRODUCT_PROPERTIES += \
    persist.camera.HAL3.enabled=1 \
