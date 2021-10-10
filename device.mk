@@ -108,6 +108,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.controls.xml:system/etc/permissions/android.software.controls.xml
 
+# QMI
+$(call inherit-product, external/json-c/Android.configure.mk)
+PRODUCT_PACKAGES += \
+    libjson
+
 # RCS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
