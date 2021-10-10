@@ -124,10 +124,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.shutdown_timeout=2
 
-# WFD
-PRODUCT_PRODUCT_PROPERTIES += \
-    persist.hwc.enable_vds=1
-
 # Zygote
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
