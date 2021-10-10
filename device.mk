@@ -98,10 +98,7 @@ endif
 
 # Power
 PRODUCT_PACKAGES += \
-     android.hardware.power-service.realme_sdm710
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_SYSTEM)/etc/powerhint.json
+     android.hardware.power-service.realme-sdm710
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -119,9 +116,7 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH) \
-    hardware/google/interfaces \
-    hardware/google/pixel
+    $(LOCAL_PATH)
 
 # System properties
 -include $(LOCAL_PATH)/product_prop.mk
